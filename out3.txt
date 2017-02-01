@@ -1,0 +1,59 @@
+Enter program, or filename starting with <   debug on
+Enter program, or filename starting with <   (5*(3+8)) ^ 2
+tokens= ['(', '5', '*', '(', '3', '+', '8', ')', ')', '^', '2', '$']
+token= (
+Num stack: ['$']
+ Op stack: ['$']
+-----------------------------------------------------
+token= 5
+Num stack: ['$']
+ Op stack: ['$', '(']
+-----------------------------------------------------
+token= *
+Num stack: ['$', 5.0]
+ Op stack: ['$', '(']
+-----------------------------------------------------
+token= (
+Num stack: ['$', 5.0]
+ Op stack: ['$', '(', '*']
+-----------------------------------------------------
+token= 3
+Num stack: ['$', 5.0]
+ Op stack: ['$', '(', '*', '(']
+-----------------------------------------------------
+token= +
+Num stack: ['$', 5.0, 3.0]
+ Op stack: ['$', '(', '*', '(']
+-----------------------------------------------------
+token= 8
+Num stack: ['$', 5.0, 3.0]
+ Op stack: ['$', '(', '*', '(', '+']
+-----------------------------------------------------
+token= )
+Num stack: ['$', 5.0, 3.0, 8.0]
+ Op stack: ['$', '(', '*', '(', '+']
+Evaluating:  3.0+8.0
+-----------------------------------------------------
+token= )
+Num stack: ['$', 5.0, 11.0]
+ Op stack: ['$', '(', '*']
+Evaluating:  5.0*11.0
+-----------------------------------------------------
+token= ^
+Num stack: ['$', 55.0]
+ Op stack: ['$']
+-----------------------------------------------------
+token= 2
+Num stack: ['$', 55.0]
+ Op stack: ['$', '^']
+-----------------------------------------------------
+token= $
+Num stack: ['$', 55.0, 2.0]
+ Op stack: ['$', '^']
+Evaluating:  55.0**2.0
+returning result:  3025.0
+3025.0
+Enter program, or filename starting with <   debug off
+Enter program, or filename starting with <   (1+9)/ (8-3)
+2.0
+Enter program, or filename starting with <   q

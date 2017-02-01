@@ -1,0 +1,31 @@
+Enter program, or filename starting with <   1+2
+3.0
+Enter program, or filename starting with <   5*6+3
+33.0
+Enter program, or filename starting with <   3+5*6
+33.0
+Enter program, or filename starting with <   5*(6+3)
+45.0
+Enter program, or filename starting with <   7/3
+2.3333333333333335
+Enter program, or filename starting with <   2^3^2
+512.0
+Enter program, or filename starting with <   (2^3)^2
+64.0
+Enter program, or filename starting with <   1+2*6/4
+4.0
+Enter program, or filename starting with <   12/6/2
+1.0
+Enter program, or filename starting with <   12/(6/2)
+4.0
+Enter program, or filename starting with <   (12/6)/2
+1.0
+Enter program, or filename starting with <   (5+3)*(7-2)
+40.0
+Enter program, or filename starting with <   1+2;4+3*5;2^5
+3.0
+19.0
+32.0
+Enter program, or filename starting with <   5!
+120
+Enter program, or filename starting with <   q

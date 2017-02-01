@@ -1,0 +1,13 @@
+Enter program, or filename starting with <   a=5
+Enter program, or filename starting with <   a
+Found identifier...a
+5.0
+Enter program, or filename starting with <   b=a*2
+Found identifier...a
+Enter program, or filename starting with <   b
+Found identifier...b
+10.0
+Enter program, or filename starting with <   x
+Found identifier...x
+Parse Error:  ERROR:  Unassigned variable:  x
+Enter program, or filename starting with <   q
